@@ -2,8 +2,8 @@
 EXIF.py
 *******
 
-.. image:: https://travis-ci.org/ianare/exif-py.png
-        :target: https://travis-ci.org/ianare/exif-py
+.. image:: https://travis-ci.org/mapillary/exif-py.svg?branch=mapillary
+        :target: https://travis-ci.org/mapillary/exif-py
 
 Easy to use Python module to extract Exif metadata from tiff and jpeg files.
 
@@ -148,7 +148,7 @@ This example shows how to use the library to correct the orientation of an image
 
     import exifread
     from PIL import Image
-    
+
     def _read_img_and_correct_exif_orientation(path):
         im = Image.open(path)
         tags = {}
